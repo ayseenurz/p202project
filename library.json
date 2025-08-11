@@ -1,0 +1,13 @@
+[
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "987654321"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": "123456789",
+        "type": "Pdf"
+    }
+]
