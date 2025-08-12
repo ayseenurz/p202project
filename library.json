@@ -1,13 +1,20 @@
 [
     {
-        "title": "To Kill a Mockingbird",
-        "author": "Harper Lee",
-        "isbn": "987654321"
+        "type": "Book",
+        "title": "Fantastic Mr. Fox",
+        "author": "Roald Dahl",
+        "isbn": "9780140328721"
     },
     {
-        "title": "1984",
-        "author": "George Orwell",
-        "isbn": "123456789",
-        "type": "Pdf"
+        "type": "Book",
+        "title": "Algebra 1",
+        "author": "K. Elayn Martin-Gay",
+        "isbn": "9780134093895"
+    },
+    {
+        "type": "Book",
+        "title": "Casino Royale (Bull's-eye)",
+        "author": "Ian Fleming",
+        "isbn": "009133571X"
     }
 ]

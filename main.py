@@ -15,24 +15,18 @@ def main():
         secim = input("Seçiminizi yapın: ")
 
         if secim == "1":
-            title = input("Kitap adı: ")
-            author = input("Yazar: ")
-            isbn = input("ISBN: ")
-            kitap_tipi = input("Ebook mu? (e/h): ").lower()
-
-            if kitap_tipi == "e":
-                file_type = input("Dosya tipi (PDF, EPUB vs.): ")
-                book = Ebook(title, author, isbn, file_type)
-            else:
-                book = Book(title, author, isbn)
-
-            lib.add_book(book)
+            isbn = input("ISBN girin: ")
+            lib.add_book_by_isbn(isbn)
             print("Kitap eklendi.")
 
         elif secim == "2":
             isbn = input("Silmek istediğiniz kitabın ISBN'i: ")
-            lib.remove_books(isbn)
-            print("Kitap silindi.")
+            book = lib.find_book(isbn)
+            if book:
+                lib.remove_books(isbn)
+                print("Kitap silindi.")
+            else:
+                print("Bu ISBN ile kayıtlı kitap bulunamadı.")
 
         elif secim == "3":
             lib.list_books()

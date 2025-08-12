@@ -21,9 +21,11 @@ def test_add_book(empty_library):
     book = Book("Test Book", "Test Author", "12345")
     lib.add_book(book)
 
+    # Kitap listesine eklenmiş mi?
     assert len(lib.books) == 1
     assert lib.books[0].title == "Test Book"
 
+    # JSON dosyasında var mı?
     with open(TEST_FILE, "r") as f:
         data = json.load(f)
     assert data[0]["title"] == "Test Book"
@@ -35,6 +37,8 @@ def test_remove_book(empty_library):
     lib.add_book(book)
 
     lib.remove_books("11111")
+
+    # Artık bulunmamalı
     assert lib.find_book("11111") is None
     assert len(lib.books) == 0
 
