@@ -52,4 +52,3 @@ pytest
 
 - `test_library.py` → Library sınıfı testleri
 - `test_api.py` → API testleri
-
