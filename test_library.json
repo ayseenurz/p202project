@@ -1,8 +1,8 @@
 [
     {
-        "type": "Book",
-        "title": "A",
-        "author": "B",
-        "isbn": "33333"
+        "title": "The adventures of Tom Sawyer",
+        "author": "Mark Twain",
+        "isbn": "0451526538",
+        "type": "Book"
     }
 ]

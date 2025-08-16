@@ -1,20 +1,56 @@
 [
     {
-        "type": "Book",
-        "title": "Fantastic Mr. Fox",
-        "author": "Roald Dahl",
-        "isbn": "9780140328721"
+        "title": "Crime and punishment",
+        "author": "\u0424\u0451\u0434\u043e\u0440 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u0438\u0447 \u0414\u043e\u0441\u0442\u043e\u0435\u0432\u0441\u043a\u0438\u0439",
+        "isbn": "9780140449136",
+        "type": "Book"
     },
     {
-        "type": "Book",
-        "title": "Algebra 1",
-        "author": "K. Elayn Martin-Gay",
-        "isbn": "9780134093895"
+        "title": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "isbn": "9780140449266",
+        "type": "Book"
     },
     {
-        "type": "Book",
-        "title": "Casino Royale (Bull's-eye)",
-        "author": "Ian Fleming",
-        "isbn": "009133571X"
+        "title": "The last days of Socrates",
+        "author": "\u03a0\u03bb\u03ac\u03c4\u03c9\u03bd",
+        "isbn": "9780140449280",
+        "type": "Book"
+    },
+    {
+        "title": "The Symposium",
+        "author": "\u03a0\u03bb\u03ac\u03c4\u03c9\u03bd",
+        "isbn": "9780140449273",
+        "type": "Book"
+    },
+    {
+        "title": "The Bhagavad gita.",
+        "author": "Bilinmeyen Yazar",
+        "isbn": "9780140449181",
+        "type": "Book"
+    },
+    {
+        "title": "The Epic of Gilgamesh",
+        "author": "Bilinmeyen Yazar",
+        "isbn": "9780140449198",
+        "type": "Book"
+    },
+    {
+        "title": "The Koran (Penguin Classics)",
+        "author": "Anonymous",
+        "isbn": "9780140449204",
+        "type": "Book"
+    },
+    {
+        "title": "The twelve Caesars",
+        "author": "Suetonius",
+        "isbn": "9780140449211",
+        "type": "Book"
+    },
+    {
+        "title": "A life in letters",
+        "author": "\u0410\u043d\u0442\u043e\u043d \u041f\u0430\u0432\u043b\u043e\u0432\u0438\u0447 \u0427\u0435\u0445\u043e\u0432",
+        "isbn": "9780140449228",
+        "type": "Book"
     }
 ]
